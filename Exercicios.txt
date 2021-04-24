@@ -1,0 +1,21 @@
+1-Um usuário fazendo compras num site colocou vários produtos no carrinho. Os preços desses produtos estão no array seguinte: [100, 250, 1.99, 14.50]. Crie uma função que calcule o total do valor do carrinho de compras. Imprima o resultado na tela com console.log.
+
+2-Ao exibir os valores do carrinho de compras do usuário, eles não estão sendo formatados corretamente na tela, corrija esse problema colocando R$ na frente de cada valor. Crie um for retornando cada valor formatado corretamente, utilize o mesmo array de valores do exercício anterior. Imprima o resultado na tela com console.log.
+
+3-O usuário do exercício anterior decidiu acrescentar 3 livros a compra dele, os valores desses itens são [150.99, 90, 84.99]. Crie um for e use PUSH para acrescentar os itens no carrinho. Imprima o resultado na tela com console.log.
+
+4-Em um jogo online de sinuca cada bola derrubada vale uma determinada pontuação. O jogador 1 derrubou as bolas de valor 8, 25, 1 e 19, o jogador 2 derrubou as bolas de valor 14, 9, 22 e 15. Crie uma função que utilizando FOR retorne o valor total atingido por um jogador e após isso, usando a função, determine quem está vencendo e imprima com console.log "Jogador 1 está vencendo" caso o jogador 1 esteja vencendo ou "Jogador 1 está vencendo" caso o jogador 2 esteja vencendo.
+
+5-Em um jogo antigo Megaman vai enfrentar Protoman que possui 250 de vida, cada tiro de megaman tira 3 de vida de Protoman, escreva o código que imprima no console quantos tiros de Megaman são necessários para derrotar Protoman.
+
+SE ACHA QUE CONSEGUE TENTE RESOLVER ESSE. ******************
+6-Em um jogo antigo Megaman vai enfrentar Protoman que possui 250 de vida, cada tiro de megaman tira aleatoriamente de 1 a 3 de vida de Protoman e o código para calcular um número aleatório entre 1 e 3 está escrito abaixo, escreva o código que imprima no console quantos tiros de Megaman são necessários para derrotar Protoman. Dica: Lembre-se que não é necessário entender como o código da função faz só o que faz.
+
+function calculaDano(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+Se mesmo assim quiser entender como que essa função funciona tem escrito aqui:
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random
